@@ -13,12 +13,11 @@ header .titular .filtro{color:#22bce0;font-size:14px;font-style:italic;font-weig
 header .titular .publicar{background:#dd4f24;color:#fff;float:right;font-style:italic;padding:.2em .5em;text-decoration:none;text-shadow:1px 1px 0 #000;}
 header .titular .publicar:before{content:"\e600";display:inline-block;font-family:"iconitos";margin:0 3px 0 0;text-shadow:none}
 header .titular .titulo{font-size:18px;font-weight:normal;margin:0;padding:0}
-header .usuario{position:absolute;right:10px;top:10px;font-family:"iconitos";}
+header .usuario{position:absolute;right:10px;top:10px;}
 header .usuario .avatar{margin:0 1.1em 0 0;position:relative;z-index:69;}
 header .usuario .avatar img{border-radius:50%;width:50px}
-header .usuario .flechita{background:#dd4f24;color:#fff;display:block;padding:2px;position:absolute;right:0;text-align:right;text-decoration:none;top:15px;width:50%;z-index:0}
-header .usuario:after,header .usuario content "\e602"{display:block}
-header .usuario margin 1px001px{text-shadow:1px 1px 0 #000}
+header .usuario .flechita{background:#dd4f24;color:#fff;display:block;padding:2px;position:absolute;right:0;text-align:right;text-decoration:none;top:15px;width:50%;z-index:0;}
+header .usuario .flechita:after{content:"\e602";display:inline-block;font-family:"iconitos";font-size:1em;margin:9px 1px 0 0;text-shadow:none;font-size}
 nav{background:#22bce0;border-left:15px solid #fff;position:relative;}
 nav:before{border-bottom:20px solid transparent;border-left:7px solid #fff;border-top:20px solid transparent;content:"";left:0;position:absolute;top:0}
 nav .menu{height:40px;line-height:40px;margin:0;padding:0;overflow-x:auto;white-space:nowrap;}
