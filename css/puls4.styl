@@ -2,6 +2,7 @@ azul = #22BCE0
 naranja = #DD4F24
 gris_texto = #7A7A7A
 gris_oscuro = #444
+gris_comentarios = #797979
 
 @font-face {
 	font-family: 'iconitos';
@@ -180,17 +181,26 @@ nav
 			border-top 3px solid azul
 			padding 0.5em
 			overflow hidden
-
 		.datos
 			float right
 
 			.comentarios
-				background gris_oscuro
+				background gris_comentarios
 				border-radius 3px
 				color white
 				margin 0 0.5em 0 0
 				padding 2px 5px
 				text-decoration none
+				position relative
+			.triangulo
+				border-left: 6px solid transparent;
+				border-right: 2px solid transparent;
+				border-top: 5px solid #797979;
+				bottom: -5px;
+				height: 0;
+				left: 17px;
+				position: absolute;
+				width: 0;
 
 		.estrellita
 			text-decoration none
@@ -200,7 +210,6 @@ nav
 				content: "\e601"
 				font-family "iconitos"
 				font-size 1.1em
-
 		.votos
 			float left
 
