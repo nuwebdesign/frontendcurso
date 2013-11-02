@@ -75,6 +75,7 @@ header
 			color white
 			float right
 			font-style italic
+			margin 0
 			padding 0.2em 0.5em
 			text-decoration none
 			text-shadow 1px 1px 0px black
@@ -119,13 +120,10 @@ header
 			z-index 0
 
 			&:after
-				content "\e602"
-				display inline-block
-				font-family "iconitos"
-				font-size 1em
-				margin 9px 1px 0 0
-				text-shadow none
-				font-size
+				content: "\e604";
+				display: inline-block;
+				font-family: "iconitos";
+				text-shadow: 1px 1px 0 #000;
 
 
 nav
@@ -206,8 +204,8 @@ nav
 			text-decoration none
 
 			&:after
-				color #FCB92D
-				content: "\e601"
+				color #FEBF12
+				content: "\e606"
 				font-family "iconitos"
 				font-size 1.1em
 		.votos
@@ -224,11 +222,11 @@ nav
 			.down
 				color red
 				&:before
-						content "\e602"
+						content "\e604"
 			.up
 				color green
 				&:before
-						content "\e603"
+						content "\e605"
 
 		.descripcion
 
@@ -270,7 +268,6 @@ nav
 	header
 		.titular
 			.publicar
-				font-size 1.1em
 				padding-left 3em
 				position relative
 
