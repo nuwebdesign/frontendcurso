@@ -190,15 +190,17 @@ nav
 				padding 2px 5px
 				text-decoration none
 				position relative
-			.triangulo
-				border-left: 6px solid transparent;
-				border-right: 2px solid transparent;
-				border-top: 5px solid #797979;
-				bottom: -5px;
-				height: 0;
-				left: 17px;
-				position: absolute;
-				width: 0;
+
+				&:after
+					border-left 6px solid transparent
+					border-right 2px solid transparent
+					border-top 5px solid #797979
+					bottom: -5px
+					content " "
+					height: 0
+					left: 17px
+					position: absolute
+					width: 0
 
 		.estrellita
 			text-decoration none
